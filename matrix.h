@@ -1,3 +1,6 @@
+#ifndef MATRIX_H
+#define MATRIX_H
+
 #include <math.h>
 #include <time.h>
 #include <stdio.h>
@@ -672,3 +675,5 @@ void cofactor(Matrix *matrix){
         }
     }
 }
+
+#endif // MATRIX_H
